@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup - Coconut Health Monitoring System</title>
+ <link rel="stylesheet" href="admin.css">
+
+  
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul>
+          <li><a href="reservationview.php">Reservation Details</a></li>
+          <li><a href="contactview.php">Contact</a></li>
+          <li><a href="staffview.php">Staff</a></li>
+          <li><a href="staffinsert.html">Add Staff</a></li>
+          <li><a href="facilityinsert.html">Add facility</a></li>
+          <li><a href="facilityview.php">facility</a></li>
+
+          <li class="logout"><a href="Login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <p>WELCOME ADMIN</p>
+  <div class="facility-container">
+    <h2>ADD FACILITY</h2>
+    <form method="post"action="facility.php">
+      <label for="facilityname">facilityname:</label>
+      <input type="text" id="username" name="username" required>
+      <br>
+      <label for="discription">discription</label>
+      <input type="text" id="password" name="password" required>
+      <br>
+      <input type="submit" value="insert" class="abtn"> 
+     
+    </form>
+  </div>
+
+ 
+
+</body>
+</html>
