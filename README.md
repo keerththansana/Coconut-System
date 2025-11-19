@@ -2,6 +2,8 @@
 
 An academic PHP/MySQL project that demonstrates how a coconut-health service (or resort-style wellness center) can collect reservations, contact requests, staff records, and facility descriptions through a simple public site plus an admin/staff back office.
 
+![25](https://github.com/user-attachments/assets/71799b20-5578-47a4-8a7d-49f516889419)
+
 ## Features
 
 - Public marketing site (`home.html`, `menu.html`, `offers.html`, `gallery.html`) with calls to action for reservations and contact.
